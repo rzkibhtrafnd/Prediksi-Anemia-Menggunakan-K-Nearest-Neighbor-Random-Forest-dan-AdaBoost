@@ -23,7 +23,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 """# **Data Loading**"""
 
 url = 'https://drive.google.com/uc?id=1UcIf37Wi-ebSDr_ZMmRfxBE2ENflblV8'
-output = 'diabetes.csv'
+output = 'Anemia.csv'
 
 gdown.download(url, output, quiet=False)
 
